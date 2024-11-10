@@ -24,13 +24,13 @@ The game consists of multiple rounds, and the player has limited attempts to gue
 1. **Clone or Download** the repository to your local machine:
 
     ```bash
-    git clone https://github.com/your-username/number-guessing-game.git
+    git clone https://github.com/sanjai104/CODSOFT.git
     ```
 
 2. **Navigate** to the project directory:
 
     ```bash
-    cd number-guessing-game
+    cd Number Game
     ```
 
 3. **Compile** the Java program using the following command:
