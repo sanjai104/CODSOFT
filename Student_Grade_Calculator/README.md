@@ -40,9 +40,4 @@ This is a simple Java-based Student Grade Calculator application using **Swing**
 - **Java** (for backend and logic)
 - **Swing** (for GUI)
 
-**License
-**This project is open-source and available under the MIT License.
-
-##Author
-SANJAI ANBAZGHAN
 
