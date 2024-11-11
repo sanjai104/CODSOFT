@@ -31,7 +31,7 @@ public class QuizApp {
             frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
             frame.setLayout(null);
             
-            // Center the frame on the screen
+            // Center on the screen
             frame.setLocationRelativeTo(null);
 
             questionLabel = new JLabel();
@@ -111,7 +111,7 @@ public class QuizApp {
         }
     }
 
-    private void startTimer() {
+    private void startTimer() { //Timer Starts here.
         try {
             timer = new Timer(1000, new ActionListener() {
                 int timeLeft = 10;
@@ -170,7 +170,7 @@ public class QuizApp {
         try {
             JOptionPane.showMessageDialog(null, "Quiz Completed! Your score is: " + score + "/" + questions.length +
                     "\nCorrect answers: " + correctAnswersCount + "\nIncorrect answers: " + incorrectAnswersCount);
-            restartButton.setEnabled(true); // Enable restart button after quiz completion
+            restartButton.setEnabled(true); // Enable restart button after quiz completed
         } catch (Exception ex) {
             JOptionPane.showMessageDialog(frame, "An error occurred while displaying the results: " + ex.getMessage());
         }
@@ -182,8 +182,8 @@ public class QuizApp {
             currentQuestionIndex = 0;
             correctAnswersCount = 0;
             incorrectAnswersCount = 0;
-            restartButton.setEnabled(false); // Disable restart button during the quiz
-            progressBar.setValue(0); // Reset progress bar
+            restartButton.setEnabled(false); // Disable the restart button during the quiz
+            progressBar.setValue(0); // Reset the progress bar
             loadQuestion();
         } catch (Exception ex) {
             throw new Exception("Error resetting the quiz: " + ex.getMessage());
