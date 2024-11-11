@@ -51,7 +51,7 @@ git clone https://github.com/sanjai104/CODSOFT.git
     javac java QuizApp
 
     ```
-## Usage
+
 # How the quiz works
 
  - **Start the Quiz**: When you launch the app, it will display the first question with four possible answers (A, B, C, D).
