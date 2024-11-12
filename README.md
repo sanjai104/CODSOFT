@@ -47,7 +47,7 @@ After each guess, feedback is provided, telling the player if the guess is too h
 
   ## Usage Instructions
   ## How to Run the Projects:
-  1. Clone the repository to your local machine using:
+ 1. Clone the repository to your local machine using:
    ```bash
     git clone https://github.com/sanjai104/CODSOFT.git
    ```
